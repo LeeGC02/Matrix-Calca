@@ -1,0 +1,19 @@
+.row-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  border-bottom: 1px solid #457b9d;
+  color: #111111;
+  font-size: 15px;
+  font-weight: 500;
+}
+.num-name-header {
+  display: flex;
+  gap: 60px;
+}
+.inf-header {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}

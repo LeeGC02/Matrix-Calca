@@ -1,0 +1,29 @@
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.people-name {
+  color: #2b2d42;
+  font-size: 28px;
+  font-weight: 500;
+}
+.icons-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.info-name-container {
+  display: flex;
+  gap: 32px;
+}
+.info-person {
+  display: flex;
+  align-items: center;
+}
+.img-name-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

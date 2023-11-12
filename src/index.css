@@ -1,0 +1,10 @@
+:root {
+  color: #111111;
+  background-color: #edf2f4;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  align-items: center;
+  margin: 0;
+  box-sizing: border-box;
+}

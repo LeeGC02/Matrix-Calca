@@ -1,0 +1,20 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 100vh;
+  border-radius: 0px 20px 20px 0px;
+  background: #2b2d42;
+}
+.app-web-name {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 50px 50px 50px;
+}
