@@ -2,11 +2,11 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import "./Information.css";
 
-const Information = () => {
+const Information = ({ titleText }) => {
   return (
     <div className="info-container">
       <div className="welcome-container">
-        <span className="people-name">Welcome Back, Anthony</span>
+        <span className="people-name">{titleText}</span>
       </div>
       <div className="info-name-container">
         <div className="icons-container">
