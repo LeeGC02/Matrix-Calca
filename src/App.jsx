@@ -3,13 +3,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import ProyectsView from "./views/ProyectsView";
+import Formulario from "./formulario-B2/Formulario"
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<ProyectsView />} />
+            <Route path="/" element={<Formulario/>} />
         </Routes>
       </BrowserRouter>
     </div>
