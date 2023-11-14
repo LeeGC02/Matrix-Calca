@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<ProyectsView />} />
+          <Route path="/Proyects" element={<ProyectsView />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/reportsUser" element={<ReportsUserView />} />
         </Routes>

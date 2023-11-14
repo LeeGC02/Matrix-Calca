@@ -4,7 +4,6 @@ import Dashboard from "../componentes/Dashboard";
 import Information from "../componentes/Information";
 import MasterContainer from "../componentes/MasterContainer";
 import dataForTable1 from "../assets/masterPrueba.json";
-import dataForTable2 from "../assets/dataProyect.json";
 
 const ReportsUserView = () => {
   return (
