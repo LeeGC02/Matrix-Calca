@@ -1,0 +1,10 @@
+.formulario-container {
+  display: flex;
+}
+.container-table {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  padding: 66px 55px 55px 40px;
+    gap: 40px;
+}

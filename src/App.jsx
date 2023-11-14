@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import ProyectsView from "./views/ProyectsView";
-import Formulario from "./formulario-B2/Formulario"
+import Formulario from "./views/Formulario"
 
 function App() {
   return (

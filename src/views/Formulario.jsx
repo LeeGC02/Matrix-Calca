@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./Formulario.css"
 import Dashboard from "../componentes/Dashboard";
 import Information from "../componentes/Information";
 
@@ -12,8 +13,9 @@ const Formulario = () => {
         <Dashboard />
 
       </div>
-      <div className = "container-info-p">
+      <div className = "container-table">
         <Information />
+        
       </div>
     </div>
   );
