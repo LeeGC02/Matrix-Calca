@@ -38,7 +38,8 @@ export const loginOk = async () => {
       if (response.ok) {
         // Autenticación exitosa
         const data = await response.json();
-        console.log('Token de autenticación:', data.token);
+        
+        //console.log('Token de autenticación:', data.token);
         // Puedes almacenar el token en el estado o en una cookie, según tus necesidades
       } else {
         // Autenticación fallida
