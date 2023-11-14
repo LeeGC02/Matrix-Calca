@@ -13,8 +13,8 @@ const Login = () => {
     const contrasenaIngresada = document.getElementById("password").value;
 
     // Verifica las credenciales
-    if (usuarioIngresado === "jorge" && contrasenaIngresada === "123456789qqkkkk") {
-      window.location.href = "https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwiKnrvyr7-CAxWprJUCHYvcA-0QPAgJ";
+    if (usuarioIngresado === "jorge" && contrasenaIngresada === "vino1111") {
+      window.location.href = "http://localhost:5173/dashborad"; 
     } else {
       // Credenciales incorrectas, realiza alguna acción o muestra un mensaje de error
       alert("usuario o contraseña incorrectas. Inténtalo de nuevo.");
