@@ -4,6 +4,7 @@ import "./App.css";
 
 import ProyectsView from "./views/ProyectsView";
 import Profile from "./views/Profile";
+import ReportsUserView from "./views/ReportsUserView";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<ProyectsView />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/reportsUser" element={<ReportsUserView />} />
         </Routes>
       </BrowserRouter>
     </div>
