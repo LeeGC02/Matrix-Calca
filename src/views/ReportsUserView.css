@@ -1,0 +1,10 @@
+.master-view-container {
+  display: flex;
+}
+.master-container-info-p {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  padding: 66px 55px 55px 40px;
+  gap: 40px;
+}

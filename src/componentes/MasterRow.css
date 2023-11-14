@@ -1,0 +1,12 @@
+.master-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 30px 0px 30px;
+  gap: 140px;
+  height: 55px;
+  border-bottom: 2px solid #b7cafc;
+  color: #111111;
+  font-size: 12px;
+  font-weight: 400;
+}
