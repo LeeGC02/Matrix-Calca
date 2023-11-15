@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import ProyectsView from "./views/ProyectsView";
+import Formulario from "./views/Formulario"
 import Login from "./views/Login";
 import Profile from "./views/Profile";
 import LandingPage from "./views/LandingPage";
