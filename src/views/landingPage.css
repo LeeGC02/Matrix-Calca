@@ -7,9 +7,10 @@ body {
 }
 
 .header {
+  margin: 0;
   display: flex;
   width: 1536px;
-  height: 83px;
+  height: 90px;
   background-color: #fff;
 }
 
@@ -43,7 +44,7 @@ body {
   background-color: #b01223;
   color: #fff;
   width: 255px;
-  height: 83px;
+  height: 90px;
   margin: 0;
   text-align: center;
   justify-content: center;
@@ -66,7 +67,7 @@ body {
 }
 
 .inicio_btn button {
-  width: 265px;
+  width: 250px;
   height: 57px;
   margin-left: 5px;
   margin-right: 100px;
@@ -109,10 +110,52 @@ body {
 
 
 .lateral {
+  margin-top: 135px;
+  display: inline-block;
   padding-left: 140px;
   padding-top: 40px;
 }
 
+.publi{
+  
+  padding-left: 60px;
+  margin: 0;
+  color: #1a0dab;
+}
+
+.coca{
+  padding-left: 60px;
+  border-radius: 10px;
+  width: 280px;
+  height: 375px;
+}
+
+.proyectos-recientes{
+  margin-top: 40px  ;
+  width: 400px;
+  height: 350px;
+  background-color: #FFFF;
+}
+
+.img img{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  height: 184px;
+}
+
+.proy-tit{
+  display: flex;
+}
+
+.tit{
+  padding-left: 10px;
+  color: #b01223;
+}
+
+.fech{
+  padding-left: 100px;
+}
 
 .footer{
     width: 100%;

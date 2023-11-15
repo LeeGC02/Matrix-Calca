@@ -54,18 +54,19 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="lateral">
-          <p>LLENAR DE IMAGENESs</p>
+          <p className="publi">Publicidad</p>
+          <img src="../static/images/coca.jpg" alt="no furulo we" className="coca" />
           <div className="proyectos-recientes">
             <div className="img">
-              <img src="" alt="" />
+              <img src="../static/images/golden.jpg" alt="" />
             </div>
             <div className="info-proy">
               <div className="proy-tit">
-                <p>Titulo</p>
-                <p>fecha</p>
+                <p className="tit">Titulo: Salon de eventos golden</p>
+                <p className="fech">Fecha: 12/10/2022</p>
               </div>
               <div className="descrip">
-                <p>Descripcion del proyecto</p>
+                <p>El salón de eventos "Golden" se construirá con un diseño lujoso y elegante, utilizando materiales de alta calidad. Estará listo para albergar diversos eventos, destacando por sus detalles dorados y su ambiente exclusivo.</p>
               </div>
             </div>
           </div>
