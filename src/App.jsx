@@ -5,6 +5,7 @@ import "./App.css";
 import ProyectsView from "./views/ProyectsView";
 import Login from "./views/Login";
 import Profile from "./views/Profile";
+import LandingPage from "./views/LandingPage";
 import ReportsUserView from "./views/ReportsUserView";
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/" element={<LandingPage/>}/>
+          <Route path="/Login" element={<Login />} />
           <Route path="/Dashborad" element={<ProyectsView />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/ReportUser" element={<ReportsUserView />} />
